@@ -35,11 +35,11 @@
 
 .friend__content .friend__status, 
 .friend__content .friend__bottom-text,
-.friend .chat__timestamp{
+.friend .chat__timestamp, .friends__plus-count{
     opacity: 0.6;
 } 
 
-.friend__content .friend__bottom-text{
+.friend__content .friend__bottom-text, .friends__plus-count{
     font-size: 14px;
 }
 

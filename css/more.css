@@ -54,3 +54,13 @@
     font-size: 28px;
     color: white;
 }
+
+.header__icon .notice{
+    position: absolute;
+    top: 52px;
+    right: 17px;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+}

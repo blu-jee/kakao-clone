@@ -1,8 +1,12 @@
-.friends .friends__plus{
-    margin: 20px 0;
-    padding: 20px 0px;
+.friends .friends__plus.plus{
+    margin: 10px 0;
     border-bottom: 1px solid #f7f7f7;
     border-top: 1px solid #f7f7f7;
+}
+
+.friends .friends__plus.bday{
+    margin: 10px 0;
+    border-bottom: 1px solid #f7f7f7;
 }
 
 .friends__plus .friends__title,
@@ -12,11 +16,33 @@
     margin-bottom: 12px;
 }
 
+.friends__friend{
+    margin-bottom: 15px;
+}
+
+.friends__title{
+    padding-top: 15px;
+}
+
+.friend__content .friend__name.bday i, 
+.friend__content .friend__gift i{
+    color: #dc5d46;
+}
+
+.friend__content .friend__gift{
+    text-align: center;
+    border: 1px solid #dc5d46;
+    border-radius: 20px;
+    width: 80px;
+    padding: 5px 0;
+    font-size: 13px;
+}
+
 .friend .friend__now-listening{
     padding: 5px 10px;
     border-radius: 15px;
     border: 2px solid #52e084;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .friend__now-listening span{
@@ -24,7 +50,7 @@
 }
 
 .friend__now-listening i{
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .friend__add-btn{

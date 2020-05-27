@@ -1,0 +1,143 @@
+@keyframes profileUp{
+    from{
+        opacity: 0;
+        transform: translateY(700px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.phone {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  padding: 15px;
+  border-radius: 40px;
+  border: 1px solid rgb(172, 170, 170);
+  margin-top: 10px;
+}
+
+.phone.Up{
+    animation: profileUp 0.5s ease-out forwards;
+}
+
+@keyframes profileLeft{
+    from{
+        opacity: 0;
+        transform: translateX(500px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.phone.leftToright{
+    animation: profileLeft 0.4s ease-out forwards;
+}
+
+.phone .screen {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  background-color: white;
+  color: rgb(61, 61, 61);
+  font-size: 15px;
+  border-radius: 40px;
+}
+
+.phone .screen.profile:after {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../images/avatarBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  content: "";
+  border-radius: 40px;
+}
+
+.phone .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.phone .fa-times,
+.phone .fa-bars {
+  font-size: 20px;
+  color: gray;
+}
+
+.phone .main {
+  padding: 250px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone .main .main__avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone div.main__avatar-column {
+  width: 100px;
+  height: 100px;
+  background-image: url("../images/avatar_me.png");
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 25px;
+  border-radius: 38%;
+}
+
+.phone span.main__avatar-column {
+  padding-bottom: 10px;
+}
+
+.phone .main__avatar-column.avatar__name {
+  font-size: 20px;
+  font-weight: 700;
+  /* color: #2598f9; */
+}
+
+.phone .main__community {
+  /* margin: 30px 0; */
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-top: 2px solid #f7f7f7;
+}
+
+.phone .main__community-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 55px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(167, 167, 167);
+}
+
+.phone .main__community-column i{
+    padding-bottom: 5px;
+}
+
+.phone .plus-channel{
+    font-size: 20px;
+    color: black;
+    padding-right: 5px;
+}
