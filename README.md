@@ -11,6 +11,8 @@ Kakao Desktop App Clone
 * 전체 페이지 구조
 (Friends / Chat / Find / More)
 
+<img src="https://user-images.githubusercontent.com/43735576/85988443-f9776b80-ba29-11ea-960e-3e5e2cf77159.gif" width="100" height="100 />
+
 ![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/43735576/85988443-f9776b80-ba29-11ea-960e-3e5e2cf77159.gif)
 
 * 채팅창
