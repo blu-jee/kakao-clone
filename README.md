@@ -7,6 +7,7 @@ Kakao Desktop App Clone
 2. Flex 박스 활용
 3. 애니메이션 효과
 
+<br />
 
 #### - 전체 페이지 구조
 (Friends / Chat / Find / More)
